@@ -50,8 +50,14 @@ cd ../../../../wasm_module
 cd ../wasm_exec/src/main/java
 ```
 9. Now we need to download library which will help us compiles and instantiate our WebAssembly module.
+
+For Linux:
 ```
 wget https://github.com/wasmerio/wasmer-java/releases/download/0.3.0/wasmer-jni-amd64-linux-0.3.0.jar
+```
+For Mac:
+```
+wget https://github.com/wasmerio/wasmer-java/releases/download/0.3.0/wasmer-jni-amd64-darwin-0.3.0.jar
 ```
 10.Lets execute the program:
 ``` 
