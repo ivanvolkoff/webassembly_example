@@ -15,7 +15,7 @@ cd webassembly_example
 
 `wasm_compile` - folder with java program which will compile our java program to .wasm 
 
-`wasm_module` - folder with compiled .wasm module
+`wasm_module` - folder with compiled .wasm module(now its empty)
 
 `wasm_exec` - folder with java program which will run our .wasm module.
 
