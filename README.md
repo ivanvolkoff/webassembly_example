@@ -1,7 +1,7 @@
 ## Compiling java program to .wasm and using the .wasm module in other project.
 
 This example runs on Ubuntu 20.04. 
-There is some problem in wasmer library for macOs.
+
 
 1. Clone the repository
 ```  
