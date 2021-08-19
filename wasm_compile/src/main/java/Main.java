@@ -13,7 +13,7 @@ public class Main {
         File file = new File("../../../../wasm_module/calc.wasm");
         JWebAssembly jWebAssembly = new JWebAssembly();
 
-        jWebAssembly.addFile(new File("../../../target/classes/Calc.class"));
+        jWebAssembly.addFile(new File("Calc.class"));
         jWebAssembly.compileToText(file);
 
     }
