@@ -60,13 +60,14 @@ For Mac:
 wget https://github.com/wasmerio/wasmer-java/releases/download/0.3.0/wasmer-jni-amd64-darwin-0.3.0.jar
 ```
 10.Lets execute the program:
-``` 
+
 for Linux:
+``` 
 java -cp wasmer-jni-amd64-linux-0.3.0.jar RunWasm.java
-
+```
 for Mac:
+```
 java -Dos.arch=amd64 -cp wasmer-jni-amd64-darwin-0.3.0.jar RunWasm.java
-
 ```
 If everything runs well we should see this:
 ```
